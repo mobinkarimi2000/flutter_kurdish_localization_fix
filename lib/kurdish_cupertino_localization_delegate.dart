@@ -253,6 +253,7 @@ class KurdishCupertinoLocalizationsDelegate
         // DateFormat symbols, similar to NumberFormat above.
         fullYearFormat: intl.DateFormat('y', localeName),
         dayFormat: intl.DateFormat('yMd', localeName),
+        weekdayFormat: intl.DateFormat('yMd', localeName),
         doubleDigitMinuteFormat: intl.DateFormat('yMMMd', localeName),
         mediumDateFormat: intl.DateFormat('EEE, MMM d', localeName),
         singleDigitHourFormat: intl.DateFormat('EEEE, MMMM d, y', localeName),
@@ -282,6 +283,7 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required super.singleDigitHourFormat,
     required super.singleDigitMinuteFormat,
     required super.singleDigitSecondFormat,
+    required super.weekdayFormat,
   });
 
 // #docregion Getters
@@ -360,7 +362,15 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   @override
   String get shareButtonLabel => 'هاوبەشکردن';
-  
+
   @override
   String get clearButtonLabel => "";
+
+  @override
+  // TODO: implement backButtonLabel
+  String get backButtonLabel => '';
+
+  @override
+  // TODO: implement cancelButtonLabel
+  String get cancelButtonLabel => '';
 }
