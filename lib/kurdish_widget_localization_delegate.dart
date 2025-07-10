@@ -30,48 +30,48 @@ class KurdishWidgetLocalizations extends WidgetsLocalizations {
   TextDirection get textDirection => TextDirection.rtl;
 
   @override
-  String get reorderItemDown => throw UnimplementedError();
+  String get reorderItemDown => "";
 
   @override
-  String get reorderItemLeft => throw UnimplementedError();
+  String get reorderItemLeft => "";
 
   @override
-  String get reorderItemRight => throw UnimplementedError();
+  String get reorderItemRight => "";
 
   @override
-  String get reorderItemToEnd => throw UnimplementedError();
+  String get reorderItemToEnd => "";
 
   @override
-  String get reorderItemToStart => throw UnimplementedError();
+  String get reorderItemToStart => "";
 
   @override
-  String get reorderItemUp => throw UnimplementedError();
+  String get reorderItemUp => "";
 
   @override
   // TODO: implement copyButtonLabel
-  String get copyButtonLabel => throw UnimplementedError();
+  String get copyButtonLabel => "";
 
   @override
   // TODO: implement cutButtonLabel
-  String get cutButtonLabel => throw UnimplementedError();
+  String get cutButtonLabel => "";
 
   @override
   // TODO: implement lookUpButtonLabel
-  String get lookUpButtonLabel => throw UnimplementedError();
+  String get lookUpButtonLabel => "";
 
   @override
   // TODO: implement pasteButtonLabel
-  String get pasteButtonLabel => throw UnimplementedError();
+  String get pasteButtonLabel => "";
 
   @override
   // TODO: implement searchWebButtonLabel
-  String get searchWebButtonLabel => throw UnimplementedError();
+  String get searchWebButtonLabel => "";
 
   @override
   // TODO: implement selectAllButtonLabel
-  String get selectAllButtonLabel => throw UnimplementedError();
+  String get selectAllButtonLabel => "";
 
   @override
   // TODO: implement shareButtonLabel
-  String get shareButtonLabel => throw UnimplementedError();
+  String get shareButtonLabel => "";
 }
